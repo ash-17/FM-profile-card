@@ -84,7 +84,7 @@ body{
     width: 100%;
     justify-content: space-evenly;
     margin-bottom: 2em;
-    
+    margin-top: 3em;
 }
 
 hr{
@@ -107,6 +107,12 @@ hr{
     font-size: 0.7rem;
 }
 
+hr{ 
+    width: 100%;
+    color: hsl(0, 0%, 59%);
+    opacity: .20;
+    height: 2px;
+}
 
 @media (min-width: 700px){
     .container{
@@ -116,4 +122,9 @@ hr{
     .bottom-image{
         scale:1.6
     }
+
+    .attribution{
+        margin-top: 30px;
+    }
+
 }
